@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15%;
+  width: 75%;
+}
+.greet {
+  text-align: center;
+}
+.footers {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+.navig {
+  left: 0;
+  width: 120px;
+  height: 95vh;
+  transition:all .2s;
+}
+.navigoff {
+  position: :absolute;
+  background:#011627;
+  width: 120px;
+  height:95vh;
+  left:-100%;
+  padding:1px 15px;
+  transition:all .2s;
+}
+.no
